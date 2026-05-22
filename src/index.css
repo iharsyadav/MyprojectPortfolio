@@ -1,20 +1,31 @@
+/* =========================================
+   src/index.css
+========================================= */
+
 @import "tailwindcss";
 
-/* =========================
-   THEME CONFIGURATION
-========================= */
-
 @theme {
+  /* Colors from your 3-Color Gradient Generator */
+  --color-brand-pink: #D16BA5;
+  --color-brand-lavender: #86A8E7;
+  --color-brand-mint: #5FFBF1;
+  
+  --color-bg-start: #D16BA5;
+  --color-bg-mid: #86A8E7;
+  --color-bg-end: #5FFBF1;
 
-  /* COLORS */
+  /* Skeuomorphic Custom Shadow & Glow Profiles */
+  --shadow-skeuo-convex: inset 2px 2px 5px rgba(255, 255, 255, 0.4), 
+                          inset -3px -3px 7px rgba(0, 0, 0, 0.1),
+                          5px 5px 15px rgba(0, 0, 0, 0.15);
+                          
+  --shadow-skeuo-concave: inset 3px 3px 7px rgba(0, 0, 0, 0.15), 
+                           inset -3px -3px 7px rgba(255, 255, 255, 0.3);
+                           
+  --shadow-skeuo-glass: 0 8px 32px 0 rgba(134, 168, 231, 0.2);
+}
 
-  --color-primary: #fbbf24;
-
-  --color-dark: #09090b;
-
-  --color-card: #18181b;
-
-  --color-muted: #a1a1aa;
-
-  /* FONTS */
+/* Custom Base Utility for your exact generated background orientation (to left bottom) */
+@utility bg-gradient-portfolio {
+  background-image: linear-gradient(to left bottom, var(--color-brand-pink), var(--color-brand-lavender), var(--color-brand-mint));
 }
