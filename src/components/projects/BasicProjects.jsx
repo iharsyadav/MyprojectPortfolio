@@ -13,7 +13,7 @@ import DashboardNavbar from "../dashboard/DashboardNavbar";
 const basicProjects = [
 
   {
-    title: "Modern Landing Page",
+    title: "MyPortfolio",
 
     tech: [
       "React",

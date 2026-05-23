@@ -177,7 +177,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                  <h4 className="text-white font-bold">50+ Projects</h4>
+                  <h4 className="text-white font-bold">20+ Projects</h4>
 
                   <p className="text-white/70 text-sm">Modern Frontend UI</p>
                 </div>

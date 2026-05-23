@@ -2,66 +2,77 @@
    src/pages/IntermediateProjects.jsx
 ========================================= */
 
-import { FaArrowRight,  FaDatabase } from "react-icons/fa";
+import { FaArrowRight, FaDatabase } from "react-icons/fa";
 
 import DashboardNavbar from "../dashboard/DashboardNavbar";
 
 const intermediateProjects = [
- {
-  title: "codeDotin",
+  {
+    title: "codeDotin",
 
-  tech: [
-    "React",
-    "Tailwind",
-    "React Router",
-    "UI Design",
-  ],
+    tech: ["React", "Tailwind", "React Router", "UI Design"],
 
-  difficulty: "Intermediate",
+    difficulty: "Intermediate",
 
-  color: "bg-cyan-800",
+    color: "bg-cyan-800",
 
-  link: "https://codedotin.netlify.app/",
-},
+    link: "https://codedotin.netlify.app/",
+  },
 
   {
-    title: "Movie App",
+    title: "GeoVista",
 
-    tech: ["API", "React"],
+    tech: ["API", "React", "Framer Motion"],
 
     difficulty: "Intermediate",
 
     color: "bg-cyan-300",
+    link: "https://geovista.pages.dev/",
   },
 
   {
-    title: "Weather Dashboard",
+    title: "SkyCast",
 
     tech: ["API", "Tailwind"],
 
     difficulty: "Intermediate",
 
     color: "bg-yellow-300",
+
+    link: "https://skyicast.netlify.app/",
   },
 
   {
-    title: "Admin Panel",
+    title: "Productivity Hub",
 
-    tech: ["Charts", "React Router"],
+    tech: ["React", "React Router","Tailwind"],
 
     difficulty: "Intermediate",
 
     color: "bg-pink-400",
+    link: "https://productivity-hub-7m0.pages.dev/"
   },
 
   {
-    title: "Authentication UI",
+    title: "Authentication UI App",
 
-    tech: ["Firebase", "Forms"],
+    tech: ["React 19", "Forms", "Glassmorphism UI"],
 
     difficulty: "Intermediate",
 
     color: "bg-emerald-400",
+    link: "https://auth-dashbord.onrender.com/",
+  },
+    {
+    title: "UtilityApp",
+
+    tech: ["React", "Tailwind", "React Router", "UI Design"],
+
+    difficulty: "Intermediate",
+
+    color: "bg-cyan-800",
+
+    link: "https://utility-hub-iota.vercel.app/",
   },
 ];
 
@@ -91,7 +102,6 @@ const IntermediateProjects = () => {
               Interactive frontend applications
             </p>
           </div>
-
         </div>
 
         {/* GRID */}
@@ -136,7 +146,7 @@ const IntermediateProjects = () => {
               </div>
 
               {/* PREVIEW */}
-                  <div className="mt-4 h-32 rounded-[16px] bg-white/10 shadow-[var(--shadow-skeuo-concave)] p-4 overflow-hidden">
+              <div className="mt-4 h-32 rounded-[16px] bg-white/10 shadow-[var(--shadow-skeuo-concave)] p-4 overflow-hidden">
                 {/* TOP */}
 
                 <div className="flex items-center justify-between">
@@ -167,8 +177,6 @@ const IntermediateProjects = () => {
               </div>
 
               {/* PREVIEW */}
-
-          
 
               {/* FOOTER */}
 
